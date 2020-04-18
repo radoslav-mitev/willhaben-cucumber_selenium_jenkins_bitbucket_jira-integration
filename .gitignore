@@ -25,3 +25,5 @@
 hs_err_pid*
 
 willhaben-cucumber_selenium_jenkins_bitbucket_jira-integration.iml
+/target/maven-status/maven-compiler-plugin/
+/target/surefire-reports/
