@@ -14,5 +14,5 @@ which can also be executed separately:
     - as a Selenium WebDriver DDT/ JUnit / JDBC / Apache POI / POM (Page Factory) implementation
      (starting src/test/java/dataDrivenTesting/WillhabenLoginTest.java)
      
- All 6 tests included are executed locally on Jenkins. The build is triggered via BitBucket WebHook.
+ All 6 tests included are executed locally on Jenkins. The build is triggered using a BitBucket WebHook and NGROK.
  The whole development process ist managed in JIRA Software Cloud.
