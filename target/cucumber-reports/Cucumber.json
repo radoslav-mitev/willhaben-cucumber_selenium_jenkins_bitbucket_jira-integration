@@ -1,0 +1,303 @@
+[
+  {
+    "line": 6,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7201000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "an user opens www.willhaben.at in a chrome browser",
+            "match": {
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.anUserOpensWwwWillhabenAtInChromeBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-19T22:13:14.150Z",
+        "before": [
+          {
+            "result": {
+              "duration": 283000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.establishDBConnection()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login test using incorrect e-mail format (address without @ and domain)",
+        "description": "",
+        "id": "willhabenloginerroralerts;login-test-using-incorrect-e-mail-format-(address-without-@-and-domain)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18667000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "trying to log into account using non-valid e-mail address format",
+            "match": {
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.tryingToLogIntoAccountUsingNonValidEMailAddressFormat()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "should see [Bitte gib eine gueltige E-Mail-Adresse an]",
+            "match": {
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.shouldSeeBitteGibEineGueltigeEMailAdresseAn()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@database"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5717000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "an user opens www.willhaben.at in a chrome browser",
+            "match": {
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.anUserOpensWwwWillhabenAtInChromeBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-19T22:13:40.432Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.establishDBConnection()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login test using correct e-mail format but non valid credentials",
+        "description": "",
+        "id": "willhabenloginerroralerts;login-test-using-correct-e-mail-format-but-non-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.closeConnnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16480000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "trying to log into account using an e-mail address in valid format",
+            "match": {
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.tryingToLogIntoAccountUsingAnEMailAddressInValidFormat()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should see [Login fehlgeschlagen]",
+            "match": {
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.userShouldSeeLoginFehlgeschlagen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@database"
+          },
+          {
+            "name": "@last"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5599000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "an user opens www.willhaben.at in a chrome browser",
+            "match": {
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.anUserOpensWwwWillhabenAtInChromeBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-19T22:14:02.664Z",
+        "line": 26,
+        "name": "Login test using correct e-mail format but without a password",
+        "description": "",
+        "id": "willhabenloginerroralerts;login-test-using-correct-e-mail-format-but-without-a-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8808000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "trying to log into account using an \"test@gmail.at\" in valid format without a \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@gmail.at\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 78
+                }
+              ],
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.tryingToLogIntoAccountUsingAnInValidFormatWithoutAAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 885000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should see [Bitte gib dein Passwort ein]",
+            "match": {
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.userShouldSeeBitteGibDeinPasswortEin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5620000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "an user opens www.willhaben.at in a chrome browser",
+            "match": {
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.anUserOpensWwwWillhabenAtInChromeBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-19T22:14:17.984Z",
+        "line": 27,
+        "name": "Login test using correct e-mail format but without a password",
+        "description": "",
+        "id": "willhabenloginerroralerts;login-test-using-correct-e-mail-format-but-without-a-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10524000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "trying to log into account using an \"test2@gmail.at\" in valid format without a \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test2@gmail.at\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 79
+                }
+              ],
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.tryingToLogIntoAccountUsingAnInValidFormatWithoutAAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 914000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should see [Bitte gib dein Passwort ein]",
+            "match": {
+              "location": "behaviorDrivenTesting.stepDefinitions.WillhabenLoginStepdefs.userShouldSeeBitteGibDeinPasswortEin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "WillhabenLoginErrorAlerts",
+    "description": "",
+    "id": "willhabenloginerroralerts",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/behaviorDrivenTesting/features/WillhabenLogin.feature",
+    "tags": []
+  }
+]
