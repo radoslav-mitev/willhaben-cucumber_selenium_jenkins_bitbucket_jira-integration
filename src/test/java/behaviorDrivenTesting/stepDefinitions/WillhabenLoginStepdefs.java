@@ -5,6 +5,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -52,8 +53,7 @@ public class WillhabenLoginStepdefs {
     @Given("an user opens www.willhaben.at in a chrome browser")
     public void anUserOpensWwwWillhabenAtInChromeBrowser() {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\javaDevelopment\\Selenium\\testdataAndDriver\\chromedriver.exe");
-
+        WebDriverManager.chromedriver().setup();
         this.driver = new ChromeDriver();
         this.wait = new WebDriverWait(this.driver, 30);
         this.willhabenLogin = new WillhabenLoginPage(this.driver);

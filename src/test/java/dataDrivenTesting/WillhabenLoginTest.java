@@ -15,6 +15,7 @@ package dataDrivenTesting;
  */
 
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.openxml4j.opc.OPCPackage;
 import org.apache.poi.ss.usermodel.CellType;
@@ -100,8 +101,7 @@ public class WillhabenLoginTest {
     @Before
     public void testSetup() {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\javaDevelopment\\Selenium\\testdataAndDriver\\chromedriver.exe");
-
+        WebDriverManager.chromedriver().setup();
         this.driver = new ChromeDriver();
         this.driver.get("https://www.willhaben.at/iad");
         // this.driver.manage().window().maximize();   //optionally
