@@ -16,3 +16,8 @@ which can also be executed separately:
      
  All 6 tests included are executed locally on Jenkins. The build is triggered using a BitBucket WebHook and NGROK.
  The whole development process ist managed in JIRA Software Cloud.
+ 
+ Installation instructions:
+ After cloning this repository you need to copy the folder 'db_login_data' from
+ src/main/resources/testdataAndDriver/db_login_data into MySQL\mysqlx\data of your own MySQL (not included here 
+ for space reasons) and to run the DBMS. 
