@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6897000000,
+              "duration": 6110000000,
               "status": "passed"
             },
             "line": 8,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-19T22:25:24.641Z",
+        "start_timestamp": "2020-04-26T19:55:47.496Z",
         "before": [
           {
             "result": {
-              "duration": 308000000,
+              "duration": 522000000,
               "status": "passed"
             },
             "match": {
@@ -45,7 +45,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18009000000,
+              "duration": 19001000000,
               "status": "passed"
             },
             "line": 12,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 13,
@@ -83,7 +83,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5631000000,
+              "duration": 3519000000,
               "status": "passed"
             },
             "line": 8,
@@ -96,11 +96,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-19T22:25:50.001Z",
+        "start_timestamp": "2020-04-26T19:56:13.344Z",
         "before": [
           {
             "result": {
-              "duration": 21000000,
+              "duration": 18000000,
               "status": "passed"
             },
             "match": {
@@ -128,7 +128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 19236000000,
+              "duration": 20079000000,
               "status": "passed"
             },
             "line": 17,
@@ -169,7 +169,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5334000000,
+              "duration": 3827000000,
               "status": "passed"
             },
             "line": 8,
@@ -182,7 +182,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-19T22:26:14.901Z",
+        "start_timestamp": "2020-04-26T19:56:36.984Z",
         "line": 26,
         "name": "Login test using correct e-mail format but without a password",
         "description": "",
@@ -192,7 +192,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12270000000,
+              "duration": 11858000000,
               "status": "passed"
             },
             "line": 21,
@@ -214,7 +214,7 @@
           },
           {
             "result": {
-              "duration": 1169000000,
+              "duration": 1340000000,
               "status": "passed"
             },
             "line": 22,
@@ -235,7 +235,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5537000000,
+              "duration": 3555000000,
               "status": "passed"
             },
             "line": 8,
@@ -248,7 +248,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-19T22:26:33.686Z",
+        "start_timestamp": "2020-04-26T19:56:54.034Z",
         "line": 27,
         "name": "Login test using correct e-mail format but without a password",
         "description": "",
@@ -258,7 +258,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10536000000,
+              "duration": 10144000000,
               "status": "passed"
             },
             "line": 21,
@@ -280,7 +280,7 @@
           },
           {
             "result": {
-              "duration": 852000000,
+              "duration": 1020000000,
               "status": "passed"
             },
             "line": 22,
